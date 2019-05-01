@@ -3,9 +3,9 @@ class Hash
     empty_array = []
     self.each do |key, value|
       argumenets.each do |arg|
-      empty_array << key if value == arg
+        empty_array << key if value == arg
+      end
     end
-  end
     empty_array
   end
 end
